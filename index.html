@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <link rel="stylesheet" href="style.css">
+    <script src="js/gamemanager.js"></script>
+    <script src="js/player.js"></script>
+    <script src="js/enemy.js"></script>
+  </head>
+  <body>
+    <div class="header">
+      <p>Play the best Game And feel Awesome</p>
+      <h2>Choose Your Player</h2>
+    </div>
+
+    <div class="interface">
+      <a href="#" onclick="Gamemanager.setGameStart('Warrior')">
+        <img src="img/avatar-player/warrior.png" alt="warrior">
+        <div>
+          <h3>Warrior</h3>
+          <p>Warrior have higher health and stamina, however their strength also make them slower and clumsier.</p>
+        </div>
+      </a>
+
+      <a href="#" onclick="Gamemanager.setGameStart('Rogue')">
+        <img src="img/avatar-player/rogue.png" alt="rogue">
+        <div>
+          <h3>Rogue</h3>
+          <p>Rogues are fasts and have stamina and speed which makes up for their lack inn streength or health.</p>
+        </div>
+      </a>
+
+        <a href="#" onclick="Gamemanager.setGameStart('Mage')">
+          <img src="img/avatar-player/mage.png" alt="mage">
+        <div>
+          <h3>Mage</h3>
+          <p>Mages are glass canon which puts all their effort into spell. This means they slack on everything else.</p>
+        </div>
+      </a>
+
+        <a href="#" onclick="Gamemanager.setGameStart('Hunter')">
+          <img src="img/avatar-player/hunter.png" alt="hunter">
+        <div class="">
+          <h3>Hunter</h3>
+          <p>Hunters are well rounded fighters, that focus on evening out their skills. No strengths or weaknesses.</p>
+        </div>
+      </a>
+    </div>
+
+    <div class="arena">
+
+    </div>
+
+    <div class="enemy">
+
+    </div>
+  </body>
+</html>
