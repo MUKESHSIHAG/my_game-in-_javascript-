@@ -21,7 +21,7 @@ let Gamemanager = {
     let getInterface = document.querySelector(".interface");
     getInterface.innerHTML = '<img src="img/avatar-player/' +
     classType.toLowerCase() + '.png" class="img-avatar"><div><h3>'
-    + classType + '</h3><p>Health: ' + player.health + '</p><p>Mana: '
+    + classType + '</h3><p class = "health-player">Health: ' + player.health + '</p><p>Mana: '
     + player.mana + '</p><p>Strength: ' + player.strength + '</p><p>Agility: '
     + player.agility + '</p><p>Speed: ' + player.speed + '</p></div>';
   },
@@ -35,7 +35,7 @@ let Gamemanager = {
   },
   setFight: function() {
     let getHeader = document.querySelector(".header");
-    let getActions = document.querySelector(".action");
+    let getActions = document.querySelector(".actions");
     let getEnemy = document.querySelector(".enemy");
 
 
